@@ -1,0 +1,149 @@
+*{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 100%;
+}
+/* 광고 */
+.ad{
+    width: 40vw;
+    height: 5vw;
+    background-color: rgb(238, 236, 236);
+    margin: 1rem auto;
+}
+
+.start-container{
+    display: block;
+    min-width: 30vw;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+/* 대문 */
+.main-img img{
+    width: 40vw;
+}
+
+.start-btn{
+    width: 30vw;
+    height: 5vh;
+    background-color: rgb(76, 168, 255);
+    color: white;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.start-btn:hover{
+    background-color: rgb(135, 197, 255);
+}
+
+/* 질문 */
+.qna-container{
+    display: none;
+    min-width: 30vw;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.pagenumb {
+    display: flex;
+
+}
+.answer{
+    width: 40vw;
+    height: 5vw;   
+    background-color: rgb(255, 85, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.answer:hover{
+    background-color: rgb(255, 110, 182);
+}
+
+/* loading */
+.loading-container{
+    width: 40vw;
+    height: 70vh;
+    margin: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.loading{
+    display: block;
+}
+.loader{
+    margin: 0 auto;
+    border: 0.3rem solid rgb(230, 230, 230);
+    border-radius: 50%;
+    border-top: 0.3rem solid rgb(255, 65, 160);
+    width: 1.2rem;
+    height: 1.2rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* result */
+.result{
+    font-size: 2rem;
+    width: 40vw;
+    height: 70vh;
+    margin: 1rem auto;
+    justify-content: center;
+    display: none;
+}
+
+.result-img img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    display: none;
+}
+
+/* font */
+.textcenter{
+    text-align: center;
+}
+
+.pinkfont{
+    color: rgb(255, 65, 160);
+}
+.smallfont{
+    font-size: 0.6rem;
+}
+
+.bold-small{
+    font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+}
+
+.marginbtm-small{
+    margin-bottom: 0.5rem;
+}
+.marginbtm-mid{
+    margin-bottom: 0.7rem;
+}
+.marginbtm-big{
+    margin-bottom: 2rem;
+}
